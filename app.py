@@ -78,6 +78,6 @@ ax.grid(True)
 st.pyplot(fig)
 plt.show()
 
-st.markdown("**Keterangan:**")
+st.markdown("**Description::**")
 st.markdown("**🟥** = Actual Values")
 st.markdown("**🟩** = Prediction Values")
