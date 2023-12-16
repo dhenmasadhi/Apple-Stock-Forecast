@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Apr  8 12:14:34 2023
-
-@author: shrey
-"""
-
 import pandas as pd
 import streamlit as st
 from pickle import load
@@ -84,3 +77,7 @@ ax.set_ylabel('Stock Price', color='Blue')
 ax.grid(True)
 st.pyplot(fig)
 plt.show()
+
+st.markdown("**Keterangan:**")
+st.markdown("**🟥** = Actual Values")
+st.markdown("**🟩** = Prediction Values")
